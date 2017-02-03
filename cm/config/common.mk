@@ -99,7 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/ShoreDroid/com.koushikdutta.rommanager-5.5.3.7-5537-minAPI8.apk:system/app/ROMManager/com.koushikdutta.rommanager-5.5.3.7-5537-minAPI8.apk
 
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.rommanager.developerid=shoredroid
+    ro.rommanager.developerid=shoredroid
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -375,8 +375,8 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.cm.version=$(CM_VERSION) \
   ro.cm.releasetype=$(CM_BUILDTYPE) \
-  ro.modversion=$(CM_VERSION) \
-  ro.cmlegal.url=https://cyngn.com/legal/privacy-policy
+  ro.modversion=Testing \
+  ro.cmlegal.url=http://shoredroid.forumotion.com
 
 ifeq ($(OTA_PACKAGE_SIGNING_KEY),)
     PRODUCT_EXTRA_RECOVERY_KEYS += \
