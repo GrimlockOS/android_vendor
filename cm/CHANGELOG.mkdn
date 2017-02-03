@@ -1,0 +1,19 @@
+GrimlockOS
+===============
+
+Visit http://github.com/GrimlockOS for full source and git access.
+
+
+CHANGELOG (notable new features)
+---------
+
+### 14.1 MJH001
+* Build up
+
+### 14.1 MJH002
+
+*Changed some boot animation around
+*Updated to r9 through and through
+*Technicals can be released very shortly
+*Pixel Sounds and Launcher
+
